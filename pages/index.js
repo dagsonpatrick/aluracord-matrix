@@ -101,11 +101,7 @@ export default function PaginaInicial() {
                 const valor = event.target.value;
                 // Trocar o valor da variavel
                 // através do React e avise quem precisa
-                const tam = 2;
-                 
-                  setUsername(valor);
-                 
-                
+                setUsername(valor);
               }}
               fullWidth
               textFieldColors={{
